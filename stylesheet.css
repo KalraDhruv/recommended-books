@@ -75,8 +75,19 @@ button {
     max-width: 100%;
 }
 .card img:hover{
-    filter: saturate(50%);
+    filter: saturate(150%);
 }
+.card:hover{
+    box-shadow: 10px 5px 10px black;
+}
+.card-actions{
+    opacity:0;
+    transition: opacity 1s;
+}
+.card-actions:hover{
+    opacity:1;
+}
+
 
 
 
