@@ -14,6 +14,8 @@ body {
 }
 header {
    display: flex;
+   justify-content:space-between;
+   align-items:center;
    padding: 0 var(--spacer-base);
    background-color: var(--color-back-dark);
    height: var(--header-height);
@@ -41,6 +43,7 @@ button {
     cursor: pointer;
 }
 .card {
+    width:24%;
 	background: white;
 	margin-bottom: 2em;	
     padding: 0;
@@ -58,6 +61,23 @@ button {
 
 
 /* add your styles here */
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.cards{
+    display:flex;
+    justify-content:space-between;
+}
+.card img{
+    display:flex;
+    max-width: 100%;
+}
+.card img:hover{
+    filter: saturate(50%);
+}
+
 
 
 
